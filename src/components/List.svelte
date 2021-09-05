@@ -101,7 +101,8 @@
             max-height: 100%;
             padding: 10px 8px;
             box-sizing: border-box;
-            background: #ebecf0;
+            //background: #ebecf0;
+            background: #fff;
             border-radius: 4px;
 
             .list__heading {
