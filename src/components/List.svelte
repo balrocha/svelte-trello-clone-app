@@ -78,6 +78,7 @@
         box-sizing: border-box;
         margin: 0 4px;
         line-height: 20px;
+        vertical-align: top;
         :global(&.sortable-ghost) {
             opacity: .2;
             position: relative;
