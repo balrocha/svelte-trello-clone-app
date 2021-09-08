@@ -10,6 +10,7 @@
     const dispatch = createEventDispatcher();
 
     function saveTitle() {
+        console.log('saveTitle');
         if (title.trim()) {
             lists.edit({
                 listId: list.id,
