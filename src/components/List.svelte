@@ -13,6 +13,7 @@
     let sortableCards;
 
     function disableSortable(event) {
+        console.log(event)
         sortableLists.option('disabled', event.detail)
         sortableCards.option('disabled', event.detail)
     }
@@ -102,8 +103,7 @@
             max-height: 100%;
             padding: 10px 8px;
             box-sizing: border-box;
-            //background: #ebecf0;
-            background: #fff;
+            background: #ebecf0;
             border-radius: 4px;
 
             .list__heading {
